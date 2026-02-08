@@ -5,7 +5,7 @@ def home(request):
     return render(request,"home.html",{'name':'Kanye West'});
 
 def about(request):
-    return HttpResponse("Bro");
+    return render(request,"About.html");
 
 
 # Create your views here.
